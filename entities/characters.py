@@ -2,7 +2,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from core.exceptions import 
 
-class Charapter(ABC):
+class Character(ABC):
     def __init__(self, hp: float, max_hp: float, mana: int):
         self._hp = hp
         self._hp_max = _hp_max
